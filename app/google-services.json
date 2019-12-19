@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "124000979386",
+    "firebase_url": "https://solid-acrobat-208613.firebaseio.com",
+    "project_id": "solid-acrobat-208613",
+    "storage_bucket": "solid-acrobat-208613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124000979386:android:a0a1e5f2f8827e3a",
+        "android_client_info": {
+          "package_name": "com.eagleemperor.googlemapssource"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124000979386-79fl48hu7lpkom127s0rq8imjshicgeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-h0VdWbFTNOqM_LeAWhWLZewH9sY1i8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

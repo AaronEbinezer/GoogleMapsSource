@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_road"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_admin"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:background="#4f000000">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="Admin Sign Up"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/e_mail_id_sign_up"
+            android:textSize="20sp"
+            android:hint="E-mail Id"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_sing_up"
+            android:hint="Password"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_name_sign_up"
+            android:hint="User Name"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone_no_sign_up"
+            android:hint="Phone Number"
+            android:textColorHint="#fff"
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:background="#00ffffff"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
